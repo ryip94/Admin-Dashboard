@@ -1,0 +1,52 @@
+#sidebar {
+    background-color: rgb(64, 146, 206);
+    height: 100vh;
+    padding: 20px;
+}
+
+#body {
+    height: 100vh;
+}
+
+#dashHeader {
+    color: white;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+ul > li {
+    color: white;
+    list-style: none;
+    font-weight: 500;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+
+}
+
+#mainBody {
+    background-color: rgb(227, 232, 229);
+    height: 80vh;
+
+}
+
+#bodyHeader {
+    height: 20vh;
+}
+
+#settingsList {
+    margin-top: 40px;
+}
+
+#headerTop, #headerBot {
+    padding: 20px;
+}
+
+#leftSide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
