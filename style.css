@@ -47,6 +47,46 @@ ul > li {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
+    height: 70vh;
+
 
 }
 
+#leftSide > div {
+    border-left: 8px solid orange;
+    padding: 20px;
+}
+
+#rightSide {
+    height: 80vh;
+}
+
+#rightSide {
+    display: grid;
+    grid-template-rows: .1fr .49fr .1fr .49fr;
+}
+
+#rightSide > .card {
+    padding: 20px;
+}
+
+#trendCard {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 4fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#trendCard > .tweet {
+}
+
+#trendCard > .user {
+    padding: 10px;
+}
+
+.tweet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
